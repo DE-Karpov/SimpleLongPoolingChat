@@ -1,0 +1,28 @@
+package lab.chat.demo.controllers;
+
+import lab.chat.demo.forms.UserForm;
+import lab.chat.demo.services.RegistrationServiceImpl;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.Authentication;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@RequestMapping("/signUp")
+public class RegistrationController {
+
+    private final RegistrationServiceImpl service;
+
+    @Autowired
+    public RegistrationController(RegistrationServiceImpl service) {
+        this.service = service;
+    }
+
+    @PostMapping
+    public String signUp(UserForm form) {
+        service.signUp(form);
+        return "redirect:/login";
+    }
+}

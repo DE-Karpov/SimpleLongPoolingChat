@@ -1,0 +1,237 @@
+POST http://localhost:8080/login?=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "login" : "dekarpo",     "password" : "qwerty007" }
+
+###
+
+POST http://localhost:8080/login?=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "login" : "dekarpo",     "password" : "qwerty007" }
+
+###
+
+POST http://localhost:8080/login?=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "login" : "dekarpo",     "password" : "qwerty007" }
+
+###
+
+POST http://localhost:8080/login?=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "login" : "dekarpo",     "password" : "qwerty007" }
+
+###
+
+POST http://localhost:8080/login?=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "login" : "dekarpo",     "password" : "qwerty007" }
+
+###
+
+POST http://localhost:8080/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "login" : "dekarpov",
+    "password" : "qwerty007"
+}
+
+###
+
+POST http://localhost:8080/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "login" : "dekarpov",
+    "password" : "qwerty007"
+}
+
+###
+
+POST http://localhost:8080/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "login" : "dekarpov",
+    "password" : "qwerty7"
+}
+
+###
+
+POST http://localhost:8080/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "login" : "dekarpov",
+    "password" : "qwerty007"
+}
+
+###
+
+POST http://localhost:8080/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "login" : "dekarpov",     "password" : "qwerty007" }
+
+###
+
+POST http://localhost:8080/login?=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "login" : "dekarpov",     "password" : "qwerty007" }
+
+###
+
+POST http://localhost:8080/login?=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "login" : "dekarp",     "password" : "qwerty007" }
+
+###
+
+POST http://localhost:8080/login?=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "login" : "dekarpov",     "password" : "qwerty007" }
+
+###
+
+POST http://localhost:8080/login?=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "login" : "dekarpov",     "password" : "qwerty007" }
+
+###
+
+POST http://localhost:8080/login?=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "login" : "dekarp",     "password" : "qwerty007" }
+
+###
+
+POST http://localhost:8080/login?=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "login" : "dekarpov",     "password" : "qwerty005" }
+
+###
+
+POST http://localhost:8080/login?=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "login" : "dekarpov",     "password" : "qwerty005" }
+
+###
+
+POST http://localhost:8080/login?=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "login" : "dekarpov",     "password" : "qwerty005" }
+
+###
+
+POST http://localhost:8080/login?=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "login" : "dekarpov",     "password" : "qwerty005" }
+
+###
+
+POST http://localhost:8080/login?=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "login" : "dekarpov",     "password" : "qwerty007" }
+
+###
+
+POST http://localhost:8080/login?=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "login" : "dekarpov",     "password" : "qwerty007" }
+
+###
+
+POST http://localhost:8080/login?=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "login" : "dekarpov",     "password" : "qwerty007" }
+
+###
+
+POST http://localhost:8080/login?=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "login" : "dekarpov",     "password" : "qwerty007" }
+
+###
+
+POST http://localhost:8080/messages?=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "login" : "dekarpov",   "text" : "TESSSSS",   "createdAt" : null }
+
+<> 2019-10-07T105322.500.json
+
+###
+
+POST http://localhost:8080/messages?=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "login" : "qwerty",   "text" : "TESSSSS",   "createdAt" : null }
+
+<> 2019-10-07T105226.500.json
+
+###
+
