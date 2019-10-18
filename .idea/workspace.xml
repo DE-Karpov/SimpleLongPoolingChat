@@ -2,36 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd3a9b29-8603-47ce-a69f-82c01f463eb5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lab/chat/demo/controllers/ChatController.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lab/chat/demo/controllers/MessagesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab/chat/demo/controllers/MessagesController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lab/chat/demo/controllers/RegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab/chat/demo/controllers/RegistrationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lab/chat/demo/models/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab/chat/demo/models/Message.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lab/chat/demo/repositories/MessagesRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab/chat/demo/repositories/MessagesRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lab/chat/demo/repositories/TokensRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab/chat/demo/repositories/TokensRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lab/chat/demo/repositories/UsersRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab/chat/demo/repositories/UsersRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lab/chat/demo/security/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab/chat/demo/security/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lab/chat/demo/security/details/UserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab/chat/demo/security/details/UserDetailsServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lab/chat/demo/security/provider/TokenAuthenticationProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab/chat/demo/security/provider/TokenAuthenticationProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lab/chat/demo/services/LoginServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab/chat/demo/services/LoginServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lab/chat/demo/services/MessageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab/chat/demo/services/MessageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lab/chat/demo/services/MessageServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab/chat/demo/services/MessageServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lab/chat/demo/services/RegistrationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab/chat/demo/services/RegistrationServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lab/chat/demo/transfer/MessageDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab/chat/demo/transfer/MessageDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/chat.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/chat.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/chat.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/MyChat.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/lab/chat/demo/controllers/MessagesController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lab/chat/demo/controllers/MessagesController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lab/chat/demo/controllers/RegistrationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lab/chat/demo/controllers/RegistrationController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/lab/chat/demo/security/config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lab/chat/demo/security/config/SecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lab/chat/demo/services/MessageService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lab/chat/demo/services/MessageService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lab/chat/demo/services/MessageServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lab/chat/demo/services/MessageServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lab/chat/demo/transfer/MessageDto$MessageDtoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lab/chat/demo/transfer/MessageDto$MessageDtoBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lab/chat/demo/transfer/MessageDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lab/chat/demo/transfer/MessageDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/js/chat.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/chat.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/chat.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/login.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/login.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lab/chat/demo/security/details/UserDetailsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lab/chat/demo/security/details/UserDetailsServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lab/chat/demo/security/provider/TokenAuthenticationProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lab/chat/demo/security/provider/TokenAuthenticationProvider.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -802,7 +780,17 @@
       <serviceView>
         <option name="contentProportion" value="0.2218543" />
         <treeState>
-          <expand />
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@d24872b9" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@d24872b9" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@82b7135" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
+          </expand>
           <select />
         </treeState>
       </serviceView>
@@ -853,8 +841,27 @@
       <workItem from="1571247544211" duration="32000" />
       <workItem from="1571247898038" duration="27000" />
       <workItem from="1571318869084" duration="4252000" />
-      <workItem from="1571331736038" duration="25230000" />
+      <workItem from="1571331736038" duration="25506000" />
+      <workItem from="1571386512244" duration="2819000" />
+      <workItem from="1571390458654" duration="2038000" />
+      <workItem from="1571404981810" duration="232000" />
+      <workItem from="1571406258412" duration="334000" />
     </task>
+    <task id="LOCAL-00001" summary="Chat is working now">
+      <created>1571358950216</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1571358950216</updated>
+    </task>
+    <task id="LOCAL-00002" summary="MessageForm have been added">
+      <created>1571359111424</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1571359111424</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -865,10 +872,17 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Chat is working now" />
+    <MESSAGE value="MessageForm have been added" />
+    <option name="LAST_COMMIT_MESSAGE" value="MessageForm have been added" />
   </component>
 </project>
