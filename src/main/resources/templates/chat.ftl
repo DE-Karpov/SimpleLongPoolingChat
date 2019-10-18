@@ -10,7 +10,8 @@
             src="https://code.jquery.com/jquery-3.4.1.min.js"
             integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
             crossorigin="anonymous"></script>
-    <script>function sendMessage(token, text) {
+    <script>
+        function sendMessage(token, text) {
             let body = {
                 token: token,
                 text: text
@@ -34,17 +35,20 @@
                 dataType: "json",
                 contentType: "application/json",
                 success: function (response) {
-                    $('#messages').first().after('<li>' + response[0].sender.login + ": " + response[0]['value'] + '</li>');
-                    receiveMessage(login);
+                    let tableHtml = "";
+                    for (let i = 0; i < response.length; i++) {
+                        tableHtml += '<li>' + response[i].login + ": " + response[i].text + '</li>';
+                    }
+                    $("#messages").html(tableHtml);
+                    receiveMessage(token);
                 }
             })
         }
 
         function login(token) {
-            console.log(token);
             let body = {
-                text: 'Hi!',
-                token: token
+                token: token,
+                text: 'Hi!'
             };
 
             $.ajax({
@@ -59,7 +63,7 @@
             });
         }</script>
 </head>
-<body onload="login(localStorage.getItem('AUTH').toString())">
+<body onload="login(localStorage.getItem('AUTH'))">
 <h1>Current token:</h1>
 <div>
     <input id="message" placeholder="Ваше сообщение">

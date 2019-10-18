@@ -31,7 +31,7 @@ public class Message {
     private Date createdAt;
 
     @PrePersist
-    void createdAt(){
+    void createdAt() {
         this.createdAt = new Date();
     }
 }

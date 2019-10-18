@@ -27,6 +27,7 @@ public class UserDetailsServiceImpl implements UserDetailsService {
         if (authenticationCandidate.isPresent()) {
             Token token = authenticationCandidate.get();
             return new UserDetailsImpl(token.getUser(), token);
-        } return null;
+        }
+        return null;
     }
 }

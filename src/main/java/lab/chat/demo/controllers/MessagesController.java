@@ -1,5 +1,6 @@
 package lab.chat.demo.controllers;
 
+import lab.chat.demo.forms.MessageForm;
 import lab.chat.demo.transfer.MessageDto;
 import lab.chat.demo.transfer.UserDto;
 import lab.chat.demo.models.User;
@@ -33,8 +34,9 @@ public class MessagesController {
     }
 
     @PostMapping
-    public ResponseEntity<Object> receiveMessage(@RequestBody MessageDto message) {
-        User user = (User) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
+    public ResponseEntity<Object> receiveMessage(@RequestBody MessageForm message) {
+        UserDetailsImpl details = (UserDetailsImpl) detailsService.loadUserByUsername(message.getToken());
+        User user = details.getUser();
         service.receiveMessage(message, user);
         return ResponseEntity.ok().build();
     }
@@ -45,6 +47,7 @@ public class MessagesController {
         UserDetailsImpl details = (UserDetailsImpl) detailsService.loadUserByUsername(token);
         UserDto dto = form(details.getUser());
         List<MessageDto> response = service.getMessagesForPage(dto);
+        System.out.println(response);
         return ResponseEntity.ok(response);
     }
 }

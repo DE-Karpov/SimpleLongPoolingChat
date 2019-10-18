@@ -30,7 +30,7 @@ public class RegistrationServiceImpl implements RegistrationService {
                 .role(Role.USER)
                 .state(State.ACTIVE)
                 .build();
-        
+
         repository.save(user);
     }
 }

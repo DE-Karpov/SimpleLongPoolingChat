@@ -37,8 +37,6 @@
             }
         }
     </style>
-    <link href="signin.css" rel="stylesheet">
-
     <script>
         function sendLoginForm() {
             var loginForm = {
@@ -53,6 +51,7 @@
                 dataType: "json",
                 success: function (data) {
                     localStorage.setItem("AUTH", data.value.toString());
+                    localStorage.setItem("login", loginForm.login);
                     document.cookie = "AUTH=" + localStorage.getItem("AUTH");
                     window.location.href = "/chat";
                 }

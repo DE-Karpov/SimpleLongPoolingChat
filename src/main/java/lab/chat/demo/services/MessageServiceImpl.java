@@ -1,5 +1,6 @@
 package lab.chat.demo.services;
 
+import lab.chat.demo.forms.MessageForm;
 import lab.chat.demo.transfer.MessageDto;
 import lab.chat.demo.transfer.UserDto;
 import lab.chat.demo.models.Message;
@@ -27,7 +28,7 @@ public class MessageServiceImpl implements MessageService {
     }
 
     @Override
-    public void receiveMessage(MessageDto message, User user) {
+    public void receiveMessage(MessageForm message, User user) {
         if (!messages.containsKey(user.getLogin())) {
             messages.put(user.getLogin(), new ArrayList<>());
         }
@@ -54,10 +55,7 @@ public class MessageServiceImpl implements MessageService {
             List<Message> messageResponse = new ArrayList<>(repository.findAll());
             List<MessageDto> response = new ArrayList<>();
             for (Message message : messageResponse) {
-                response.add(builder()
-                        .tokenValue(message.getUser().getTokens().stream().findFirst().get().getValue())
-                        .text(message.getText())
-                        .build());
+                response.add(form(message));
             }
             messages.get(dto.getLogin()).clear();
             return response;

@@ -1,7 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd3a9b29-8603-47ce-a69f-82c01f463eb5" name="Default Changelist" comment="" />
+    <list default="true" id="dd3a9b29-8603-47ce-a69f-82c01f463eb5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lab/chat/demo/controllers/ChatController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lab/chat/demo/controllers/MessagesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab/chat/demo/controllers/MessagesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lab/chat/demo/controllers/RegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab/chat/demo/controllers/RegistrationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lab/chat/demo/models/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab/chat/demo/models/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lab/chat/demo/repositories/MessagesRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab/chat/demo/repositories/MessagesRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lab/chat/demo/repositories/TokensRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab/chat/demo/repositories/TokensRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lab/chat/demo/repositories/UsersRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab/chat/demo/repositories/UsersRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lab/chat/demo/security/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab/chat/demo/security/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lab/chat/demo/security/details/UserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab/chat/demo/security/details/UserDetailsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lab/chat/demo/security/provider/TokenAuthenticationProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab/chat/demo/security/provider/TokenAuthenticationProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lab/chat/demo/services/LoginServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab/chat/demo/services/LoginServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lab/chat/demo/services/MessageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab/chat/demo/services/MessageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lab/chat/demo/services/MessageServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab/chat/demo/services/MessageServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lab/chat/demo/services/RegistrationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab/chat/demo/services/RegistrationServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lab/chat/demo/transfer/MessageDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab/chat/demo/transfer/MessageDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/chat.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/chat.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/chat.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/MyChat.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lab/chat/demo/controllers/MessagesController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lab/chat/demo/controllers/MessagesController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lab/chat/demo/security/config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lab/chat/demo/security/config/SecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lab/chat/demo/services/MessageService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lab/chat/demo/services/MessageService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lab/chat/demo/services/MessageServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lab/chat/demo/services/MessageServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lab/chat/demo/transfer/MessageDto$MessageDtoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lab/chat/demo/transfer/MessageDto$MessageDtoBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lab/chat/demo/transfer/MessageDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lab/chat/demo/transfer/MessageDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/chat.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/chat.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/chat.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/login.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/login.ftl" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +102,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -79,15 +113,17 @@
     </option>
   </component>
   <component name="ProjectId" id="1RQLI51qoe0CaIiiuFUR1pb2Y3Y" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ChatViaJWT" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../EMSOnBoot" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -817,11 +853,22 @@
       <workItem from="1571247544211" duration="32000" />
       <workItem from="1571247898038" duration="27000" />
       <workItem from="1571318869084" duration="4252000" />
-      <workItem from="1571331736038" duration="13253000" />
+      <workItem from="1571331736038" duration="25230000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
