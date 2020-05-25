@@ -2,14 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd3a9b29-8603-47ce-a69f-82c01f463eb5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d2771990-42f7-4bdd-89b5-9acd7a8cb9f7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d2771990-42f7-4bdd-89b5-9acd7a8cb9f7.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lab/chat/demo/config/MvcConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lab/chat/demo/controllers/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab/chat/demo/controllers/LoginController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lab/chat/demo/controllers/MessagesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab/chat/demo/controllers/MessagesController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lab/chat/demo/security/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab/chat/demo/security/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lab/chat/demo/controllers/RegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab/chat/demo/controllers/RegistrationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lab/chat/demo/security/provider/TokenAuthenticationProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab/chat/demo/security/provider/TokenAuthenticationProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lab/chat/demo/config/MvcConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lab/chat/demo/controllers/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lab/chat/demo/controllers/LoginController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/lab/chat/demo/controllers/MessagesController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lab/chat/demo/controllers/MessagesController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/lab/chat/demo/controllers/RegistrationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lab/chat/demo/controllers/RegistrationController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lab/chat/demo/security/config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lab/chat/demo/security/config/SecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lab/chat/demo/security/details/UserDetailsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lab/chat/demo/security/details/UserDetailsServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/lab/chat/demo/security/provider/TokenAuthenticationProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lab/chat/demo/security/provider/TokenAuthenticationProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/login.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/login.ftl" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,6 +84,7 @@
         <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -94,6 +102,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -101,7 +110,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../EMSOnBoot" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -114,17 +123,17 @@
     <property name="settings.editor.selected.configurable" value="Lombok plugin" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\mecaz\Desktop\Repos\Chat\src\main\resources\static\js" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="lab.chat.demo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mecaz\Desktop\Repos\Chat\src\main\java\lab\chat\demo" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="lab.chat.demo.services" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\mecaz\Desktop\Repos\Chat\src\main\java\lab\chat\demo" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mecaz\Desktop\Repos\Chat\src\main\resources\static\js" />
     </key>
   </component>
   <component name="RestClientSettings">
@@ -846,6 +855,19 @@
       <workItem from="1571390458654" duration="2038000" />
       <workItem from="1571404981810" duration="232000" />
       <workItem from="1571406258412" duration="334000" />
+      <workItem from="1571772727861" duration="1996000" />
+      <workItem from="1571822447423" duration="1956000" />
+      <workItem from="1571921909569" duration="1204000" />
+      <workItem from="1572010284384" duration="1491000" />
+      <workItem from="1572175457429" duration="652000" />
+      <workItem from="1572176787738" duration="1419000" />
+      <workItem from="1572186619430" duration="857000" />
+      <workItem from="1572192791001" duration="435000" />
+      <workItem from="1572194778876" duration="35000" />
+      <workItem from="1572200449845" duration="940000" />
+      <workItem from="1572372151585" duration="2136000" />
+      <workItem from="1572596611514" duration="137000" />
+      <workItem from="1572612299297" duration="213000" />
     </task>
     <task id="LOCAL-00001" summary="Chat is working now">
       <created>1571358950216</created>

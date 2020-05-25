@@ -19,6 +19,7 @@ public class LoginController {
     }
 
     @PostMapping
+    @CrossOrigin(origins = "http://localhost:3000")
     public ResponseEntity<TokenDto> login(@RequestBody UserForm form) {
         return ResponseEntity.ok(service.login(form));
     }

@@ -12,7 +12,7 @@ public class TokenDto {
 
     private String value;
 
-    public static TokenDto from(Token token){
+    public static TokenDto from(Token token) {
         return new TokenDto(token.getValue());
     }
 }

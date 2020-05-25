@@ -18,6 +18,7 @@ import java.util.List;
 import static lab.chat.demo.transfer.UserDto.*;
 
 @RestController
+@CrossOrigin(origins = "http://localhost:3000")
 @RequestMapping("/messages")
 public class MessagesController {
 

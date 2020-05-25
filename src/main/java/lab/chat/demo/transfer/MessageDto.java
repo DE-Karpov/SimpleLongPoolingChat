@@ -11,7 +11,7 @@ public class MessageDto {
     private String login;
     private String text;
 
-    public static MessageDto form(Message message){
+    public static MessageDto form(Message message) {
         return MessageDto.builder()
                 .login(message.getUser().getLogin())
                 .text(message.getText())

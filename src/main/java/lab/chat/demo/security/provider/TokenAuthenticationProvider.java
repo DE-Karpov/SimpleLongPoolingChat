@@ -25,7 +25,6 @@ public class TokenAuthenticationProvider implements AuthenticationProvider {
     @Override
     public Authentication authenticate(Authentication authentication) throws AuthenticationException {
         TokenAuthentication tokenAuthentication = (TokenAuthentication) authentication;
-        ;
         UserDetailsImpl details = (UserDetailsImpl) service.loadUserByUsername(tokenAuthentication.getName());
         if (details != null) {
             tokenAuthentication.setDetails(details);

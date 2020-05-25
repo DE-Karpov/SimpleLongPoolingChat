@@ -39,7 +39,7 @@
     </style>
     <script>
         function sendLoginForm() {
-            var loginForm = {
+            const loginForm = {
                 login: $('#login').val(),
                 password: $('#password').val()
             };

@@ -25,7 +25,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     }
 
     @Override
-    public void configure(AuthenticationManagerBuilder auth){
+    public void configure(AuthenticationManagerBuilder auth) {
         auth.authenticationProvider(provider);
     }
 
@@ -33,12 +33,12 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     protected void configure(HttpSecurity http) throws Exception {
         http
                 .authorizeRequests()
-                    .antMatchers("/signIn", "/register", "/login", "/signUp", "/swagger-ui.html#/**").permitAll()
-                    .anyRequest().authenticated()
+                .antMatchers("/signIn", "/register", "/login", "/signUp", "/swagger-ui.html#/**").permitAll()
+                .anyRequest().authenticated()
                 .and()
-                    .csrf().disable()
-                    .addFilterBefore(new TokenAuthFilter(), BasicAuthenticationFilter.class)
-                    .authenticationProvider(provider)
-                    .sessionManagement().disable();
+                .csrf().disable()
+                .addFilterBefore(new TokenAuthFilter(), BasicAuthenticationFilter.class)
+                .authenticationProvider(provider)
+                .sessionManagement().disable();
     }
 }

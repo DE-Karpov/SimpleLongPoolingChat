@@ -11,11 +11,11 @@ public class UserDto {
     private String login;
     private String password;
 
-    public static UserDto form(User user){
+    public static UserDto form(User user) {
         return UserDto.builder()
-                    .login(user.getLogin())
-                    .password(user.getHashPassword())
-                    .build();
+                .login(user.getLogin())
+                .password(user.getHashPassword())
+                .build();
 
     }
 }
